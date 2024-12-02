@@ -8,7 +8,7 @@ const Input = () => {
   };
   return (
     <div>
-      <label>Enter</label>
+      <label>Enter any key</label>
       <input type="text" value={value} onChange={handleInput} />
     </div>
   );
